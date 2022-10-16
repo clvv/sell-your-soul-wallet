@@ -40,7 +40,7 @@ contract OwnershipNFT is ERC721Enumerable {
         parts[2] = '</text><text x="15" y="150" class="mainText">FOO Balance: ';
         parts[3] = Strings.toString(IERC20(address(TokenFOO)).balanceOf(addr));
         parts[4] = '</text><text x="15" y="180" class="mainText">BAR Balance: ';
-        parts[5] = Strings.toString(IERC20(address(TokenFOO)).balanceOf(addr));
+        parts[5] = Strings.toString(IERC20(address(TokenBAR)).balanceOf(addr));
         parts[6] = '</text><text x="15" y="230" class="mainText">Wallet Address:</text><text x="15" y="245" class="smolText">';
         parts[7] = addressText;
         parts[8] = '</text><defs><clipPath id="clip0_1_18"><rect width="300" height="300" fill="white"/></clipPath></defs></svg>';

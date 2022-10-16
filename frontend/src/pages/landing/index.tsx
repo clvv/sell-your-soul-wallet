@@ -187,7 +187,7 @@ const LandingPage = () => {
                       variant="secondary"
                       onClick={() => {
                         window.location.href =
-                          "https://testnet.stratosnft.io/asset/0x9804EcBe8269F7B8e1BBE91FFf0f19b11C897A13" +
+                          "https://testnet.stratosnft.io/asset/0x7ACe21ff20b44d792068953FeF66909D471dE0Dd" +
                           "/" +
                           BigInt(tokenId);
                       }}
